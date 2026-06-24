@@ -9,7 +9,11 @@ public class BanckTransaction {
     private final double amount;
     private final String description;
 
-    public BanckTransaction(LocalDate date, double amount, String description) {
+    public BanckTransaction(
+            LocalDate date,
+            double amount,
+            String description) {
+
         this.date = date;
         this.amount = amount;
         this.description = description;
