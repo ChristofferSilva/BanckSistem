@@ -42,4 +42,5 @@ public class BanckStatementeCsvParcer {
 
         return transactions;
     }
+
 }
